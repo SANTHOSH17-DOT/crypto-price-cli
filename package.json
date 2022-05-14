@@ -1,0 +1,28 @@
+{
+    "name": "crypto-price-cli",
+    "version": "1.0.2",
+    "description": "A command line tool to get current market price of cryptos. It scrapes the price from Coindesk website.",
+    "main": "bin/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SANTHOSH17-DOT/crypto-price-cli.git"
+    },
+    "bin": {
+        "crypto-price-cli": "./bin/index.js"
+    },
+    "author": "SANTHOSH17-DOT <santhoshm12052003@gmail.com",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/SANTHOSH17-DOT/crypto-price-cli/issues"
+    },
+    "homepage": "https://github.com/SANTHOSH17-DOT/crypto-price-cli#readme",
+    "dependencies": {
+        "express": "^4.18.1",
+        "puppeteer": "^14.1.0",
+        "yargs": "^17.5.0"
+    },
+    "keywords": ["crypto", "blockchain", "CLI"]
+}
